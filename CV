@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV cá nhân</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 40px; }
+        .cv-container { max-width: 800px; margin: auto; border: 1px solid #ccc; padding: 30px; }
+        h1, h2 { color: #333; border-bottom: 2px solid #f0f0f0; padding-bottom: 5px; }
+        .section { margin-bottom: 20px; }
+        .section p { margin: 5px 0; }
+        .section ul { list-style-type: disc; margin-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <header style="text-align: center;">
+            <h1>HÁN TRỌNG HIẾU</h1>
+            <p>Sinh viên ngành Công nghệ thông tin</p>
+        </header>
+
+        <div class="section">
+            <h2>Thông tin liên hệ</h2>
+            <p><strong>Email:</strong> hantronghieu2077@gmail.com</p>
+            <p><strong>Số điện thoại:</strong> 0886826170</p>
+            <p><strong>Địa chỉ:</strong> Số 10 Đan Phượng</p>
+            <p><strong>GitHub:</strong> https://HanTrongHieu.github.io</p>
+        </div>
+        <div class="section">
+            <h2>Mục tiêu nghề nghiệp</h2>
+            <p>Kiếm được tiền :))</p>
+        </div>
+
+        <div class="section">
+            <h2>Học vấn</h2>
+            <p><strong>Trường đại học sư phạm Thành phố Hồ Chí Minh - HCMUE</strong> (2025 - Nay)</p>
+            <ul>
+                <li>Ngành: Công nghệ thông tin</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Kỹ năng</h2>
+            <ul>
+                <li>HTML/CSS: Cơ bản</li>
+                <li>JavaScript: Cơ bản</li>
+            </ul>
+        </div>
+        </div>
+    <footer style="text-align: center; margin-top: 20px;">
+        <a href="index.html">Quay về Trang chủ</a>
+    </footer>
+</body>
+</html>
