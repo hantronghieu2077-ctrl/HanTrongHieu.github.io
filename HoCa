@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Hồ cá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #ho-ca {
+            width: 80%;
+            height: 400px;
+            border: 3px solid blue;
+            background-color: #add8e6;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .con-ca {
+            width: 80px;
+            height: auto;
+            position: absolute;
+            bottom: 50px;
+            animation: boi-loi 10s linear infinite;
+        }
+        @keyframes boi-loi {
+            from {
+                left: -100px; 
+                transform: scaleX(1);
+            }
+            to {
+
+                left: 110%; 
+                transform: scaleX(1);
+            }
+        }
+        .con-ca-2 {
+            position: absolute;
+            width: 50px;
+            bottom: 150px;
+            animation: boi-loi 7s linear infinite; 
+            transform: scaleX(-1);
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Bài tập Hồ cá (Có Animation)</h1>
+    </header>
+    <main>
+        <div id="ho-ca">
+            <img src="https://www.freeiconspng.com/thumbs/fish-png/fish-png-1.png" alt="Con cá 1" class="con-ca">
+            <img src="https://i.pinimg.com/originals/8a/f8/c4/8af8c471010b938c5b364e3215c13b28.png" alt="Con cá 2" class="con-ca-2">
+        </div>
+    </main>
+    <footer style="text-align: center;">
+        <a href="index.html">Quay về Trang chủ</a>
+    </footer>
+</body>
+</html>
